@@ -1,0 +1,68 @@
+{
+ "id": "control-all-config",
+ "order": 50,
+ "name": "Control All: leave tracks out",
+ "description": [
+  "[TRACK] + TRIG 1-6 toggles whether a track follows Control All (TRACK held + knob). Port of durchgemacht/cycles-control-all-config (MIT), second code block moved to the free 34x34 mask 0x40185f48 so it works with lfo-plus. Personal tweak, untested."
+ ],
+ "device": "Model:Cycles",
+ "os": "1.13",
+ "section": 3,
+ "writes": [
+  {
+   "off": 1627416,
+   "old": "ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff800000ffffffffff80",
+   "new": "434143310000720012394018d91c010167242f004eb9400cf8662f004eb94000eb902e804eb940012412588f221fb280670470014e7570004e7520024eb94018d91e4a80660c20522668007c4ef94001d6fe52827006b08266e04ef94001d75420024eb94018d91e4a80660c20522f032f024ef94001d5a852827006b08266e04ef94001d5d8200b4eb94018d91e4a80660c2052487800204ef94001ebd8528b7006b08b66e04ef94001ebfe20024eb94018d91e4a80660c2f022f034e924ef94001ac8052827006b08266e04ef94001ac8a20024eb94018d91e4a80660c2f022f054e944ef9400a279e528206840000000c7006b08266da4ef9400a27e2"
+  },
+  {
+   "off": 706842,
+   "old": "4018d918",
+   "new": "40187298"
+  },
+  {
+   "off": 1596232,
+   "old": "ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffffc0000000ffffffff",
+   "new": "206f00082028000c7202b081660842394018d91d606e721090817205b0816264222800100801000067360281000000286642720012394018d91c014113c14018d91c720012394018d91d01c113c14018d91d2f2f00044eb9400760ba588f6020720012394018d91d0181671813c14018d91d600c720012394018d91d0101670470014e754ef9400240782f2f000c2f2f000c2f2f000c4eb940023d8c4fef000c4feffff448d7040c246f00184eb9400cfaf426007400720012394018d91c70020501670270014879404a8c682f00200252802f002f034eb940005f864fef0010700122025281e3a8819252827006b08266c44cd7040c4fef000c4e75"
+  },
+  {
+   "off": 710084,
+   "old": "40185f48",
+   "new": "4016bfc8"
+  },
+  {
+   "off": 119544,
+   "old": "20522668007c",
+   "new": "4ef94018d952"
+  },
+  {
+   "off": 119202,
+   "old": "20522f032f02",
+   "new": "4ef94018d978"
+  },
+  {
+   "off": 124882,
+   "old": "205248780020",
+   "new": "4ef94018d99e"
+  },
+  {
+   "off": 108666,
+   "old": "2f022f034e92",
+   "new": "4ef94018d9c4"
+  },
+  {
+   "off": 664472,
+   "old": "2f022f054e94",
+   "new": "4ef94018d9ea"
+  },
+  {
+   "off": 1051368,
+   "old": "40024078",
+   "new": "40185f48"
+  },
+  {
+   "off": 1051544,
+   "old": "40023d8c",
+   "new": "40185fd2"
+  }
+ ]
+}
